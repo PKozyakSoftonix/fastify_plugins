@@ -1,0 +1,49 @@
+{
+  "name": "test_fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "nodemon -r tsconfig-paths/register app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js",
+    "dev": "npx tsc -w",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "@types/node": "^18.18.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.51.0",
+    "nodemon": "^3.0.1",
+    "pino-pretty": "^10.2.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.2.0",
+    "@types/node": "^20.9.2",
+    "fastify": "^4.24.3",
+    "fastify-cli": "^5.9.0",
+    "fastify-cookie": "^5.7.0",
+    "typescript": "^5.2.2",
+    "uuid": "^9.0.1",
+    "tsconfig-paths": "^4.2.0",
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/swagger": "^8.11.0",
+    "@fastify/swagger-ui": "^1.10.0",
+    "dotenv": "^16.3.1",
+    "fastify-plugin": "^4.5.1",
+    "fastify-type-provider-zod": "^1.1.9",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
